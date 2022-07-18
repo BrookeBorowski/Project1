@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Reimbursement</title>
+</head>
+<body>
+	<h2>Reimbursement</h2>
+	<form action="Reimbursement" method="post">
+		<label for="Type">Select Type: </label>
+    	<input type="radio" name="Type" value="Travel"/>Travel
+    	<input type="radio" name="Type" value="Lodging"/>Lodging
+    	<input type="radio" name="Type" value="Food"/>Food
+    	<input type="radio" name="Type" value="Other"/>Other
+		<br/>
+		<label for="Amount">Enter Amount: </label>
+		<input type="text" name="Amount"/> <br/>
+		<br/>
+    	<label for="Description">Please Enter Description </label>
+    	<textarea name="Description" rows="5" cols="30"></textarea>
+    	<br/>
+    	<input type="submit" value="Submit"/><br/>
+    	<input type="reset" value="Reset"/><br/> 
+	</form>
+</body>
+</html>
